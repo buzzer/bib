@@ -2,10 +2,42 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Sebastian at 2014-01-31 17:48:05 +0100 
+%% Created for Sebastian at 2014-05-02 15:15:45 +0200 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@inproceedings{Dogar2012,
+	Abstract = {We propose a planning method for grasping in cluttered environments, a method where the robot can make simultaneous contact with multiple objects. With this method, the robot reaches for and grasps the target while simultaneously contacting and moving aside objects to clear a desired path. We use a physics-based analysis of pushing to compute the motion of each object in the scene in response to a set of possible robot motions. Our method enables multiple robot-object interactions, interactions that can be pre-computed and cached. However, our method avoids object-object interactions to make the problem computationally tractable. Through tests on large sets of simulated scenes, we show that our planner produces more successful grasps in more complex scenes than versions that avoid any interaction with surrounding clutter. We validate our method on a real robot, a PR2, and show that it accurately predicts the outcome of a grasp. We also show that our approach, in conjunction with state-of-the-art object recognition tools, is applicable in real-life scenes that are highly cluttered and constrained.},
+	Author = {Mehmet Dogar and Kaijen Hsiao and Matei Ciocarlie and Siddhartha Srinivasa},
+	Booktitle = {Robotics: Science and Systems VIII},
+	Date-Added = {2014-05-02 13:11:09 +0000},
+	Date-Modified = {2014-05-02 13:15:44 +0000},
+	Month = {July},
+	Title = {Physics-Based Grasp Planning Through Clutter},
+	Year = {2012},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QLy4uLy4uL2Rpc3NlcnRhdGlvbi9saXRlcmF0dXJlL3B1c2hfZ3Jhc3BpbmcucGRm0hcLGBlXTlMuZGF0YU8RAaoAAAAAAaoAAgAACVNvZnR0aXNjaAAAAAAAAAAAAAAAAAAAAAAAAMyGRARIKwAAAJzzmhFwdXNoX2dyYXNwaW5nLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnP1vz4lkfAAAAAAAAAAAAAIAAwAACSAAAAAAAAAAAAAAAAAAAAAKbGl0ZXJhdHVyZQAQAAgAAMyGJ+QAAAARAAgAAM+JSFwAAAABABAAnPOaAC9M8QAFAWAAAg3jAAIAR1NvZnR0aXNjaDpVc2VyczoAc2ViYXN0aWFuOgBkaXNzZXJ0YXRpb246AGxpdGVyYXR1cmU6AHB1c2hfZ3Jhc3BpbmcucGRmAAAOACQAEQBwAHUAcwBoAF8AZwByAGEAcwBwAGkAbgBnAC4AcABkAGYADwAUAAkAUwBvAGYAdAB0AGkAcwBjAGgAEgA5VXNlcnMvc2ViYXN0aWFuL2Rpc3NlcnRhdGlvbi9saXRlcmF0dXJlL3B1c2hfZ3Jhc3BpbmcucGRmAAATAAEvAAAVAAIAEP//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAMAAxQDNAnsCfQKCAo0ClgKkAqgCrwK4Ar0CygLNAt8C4gLnAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuk=}}
+
+@inproceedings{Zickler2010,
+	Author = {Zickler, S. and Veloso, M.},
+	Booktitle = {19th European Conference on Artificial Intelligence, ECAI 2010},
+	Date-Added = {2014-05-02 13:08:32 +0000},
+	Date-Modified = {2014-05-02 13:09:35 +0000},
+	Month = {August},
+	Title = {{Variable Level-Of-Detail Motion Planning in Environments with Poorly Predictable Bodies}},
+	Year = {2010},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QLS4uLy4uL2Rpc3NlcnRhdGlvbi9saXRlcmF0dXJlLzEwZWNhaS12bG9kLnBkZtIXCxgZV05TLmRhdGFPEQGiAAAAAAGiAAIAAAlTb2Z0dGlzY2gAAAAAAAAAAAAAAAAAAAAAAADMhkQESCsAAACc85oPMTBlY2FpLXZsb2QucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJz9ec+JZIAAAAAAAAAAAAACAAMAAAkgAAAAAAAAAAAAAAAAAAAACmxpdGVyYXR1cmUAEAAIAADMhifkAAAAEQAIAADPiUhgAAAAAQAQAJzzmgAvTPEABQFgAAIN4wACAEVTb2Z0dGlzY2g6VXNlcnM6AHNlYmFzdGlhbjoAZGlzc2VydGF0aW9uOgBsaXRlcmF0dXJlOgAxMGVjYWktdmxvZC5wZGYAAA4AIAAPADEAMABlAGMAYQBpAC0AdgBsAG8AZAAuAHAAZABmAA8AFAAJAFMAbwBmAHQAdABpAHMAYwBoABIAN1VzZXJzL3NlYmFzdGlhbi9kaXNzZXJ0YXRpb24vbGl0ZXJhdHVyZS8xMGVjYWktdmxvZC5wZGYAABMAAS8AABUAAgAQ//8AAIAG0hscHR5aJGNsYXNzbmFtZVgkY2xhc3Nlc11OU011dGFibGVEYXRhox0fIFZOU0RhdGFYTlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMALQAyADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwCEAI4AvgDDAMsCcQJzAngCgwKMApoCngKlAq4CswLAAsMC1QLYAt0AAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC3w==}}
+
+@inproceedings{Akhtar2013,
+	Author = {N. Akhtar and A. K{\"u}stenmacher and P. Pl{\"o}ger and G. Lakemeyer},
+	Booktitle = {The 16th International Conference on Advanced Robotics (ICAR)},
+	Date-Added = {2014-05-02 13:00:24 +0000},
+	Date-Modified = {2014-05-02 13:01:45 +0000},
+	Title = {Simulation-based approach for avoiding external faults},
+	Year = {2013},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QPC4uLy4uL2Rpc3NlcnRhdGlvbi9saXRlcmF0dXJlL0V4dGVybmFsRmF1bHRzU2ltQmFzZWRBcHByLnBkZtIXCxgZV05TLmRhdGFPEQHcAAAAAAHcAAIAAAlTb2Z0dGlzY2gAAAAAAAAAAAAAAAAAAAAAAADMhkQESCsAAACc85oeRXh0ZXJuYWxGYXVsdHNTaW1CYXNlZEFwcHIucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJz9a8+JZHgAAAAAAAAAAAACAAMAAAkgAAAAAAAAAAAAAAAAAAAACmxpdGVyYXR1cmUAEAAIAADMhifkAAAAEQAIAADPiUhYAAAAAQAQAJzzmgAvTPEABQFgAAIN4wACAFRTb2Z0dGlzY2g6VXNlcnM6AHNlYmFzdGlhbjoAZGlzc2VydGF0aW9uOgBsaXRlcmF0dXJlOgBFeHRlcm5hbEZhdWx0c1NpbUJhc2VkQXBwci5wZGYADgA+AB4ARQB4AHQAZQByAG4AYQBsAEYAYQB1AGwAdABzAFMAaQBtAEIAYQBzAGUAZABBAHAAcAByAC4AcABkAGYADwAUAAkAUwBvAGYAdAB0AGkAcwBjAGgAEgBGVXNlcnMvc2ViYXN0aWFuL2Rpc3NlcnRhdGlvbi9saXRlcmF0dXJlL0V4dGVybmFsRmF1bHRzU2ltQmFzZWRBcHByLnBkZgATAAEvAAAVAAIAEP//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAM0A0gDaAroCvALBAswC1QLjAucC7gL3AvwDCQMMAx4DIQMmAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAyg=}}
 
 @misc{Baraff1997,
 	Annote = {Sigcourse},
@@ -127,19 +159,21 @@
 	the beliefs, and the world state at any projected time. It also allows
 	the planning system to recognize, diagnose, and analyze various plan
 	failures typical for performing everyday manipulation tasks. },
-	Author = {Lorenz M\"osenlechner and Michael Beetz},
+	Author = {Lorenz M{\"o}senlechner and Michael Beetz},
 	Bib2Html_Domain = {Assistive Household},
 	Bib2Html_Funding = {CoTeSys},
 	Bib2Html_Groups = {Cogito},
 	Bib2Html_Pubtype = {Conference Paper},
 	Bib2Html_Rescat = {Planning},
-	Booktitle = {19th International Conference on Automated Planning and Scheduling (ICAPS'09).},
+	Booktitle = {19th International Conference on Automated Planning and Scheduling (ICAPS)},
+	Date-Modified = {2014-05-02 13:12:51 +0000},
 	Owner = {Sebastian Rockel},
 	Timestamp = {2013.06.04},
 	Title = {Using Physics- and Sensor-based Simulation for High-fidelity Temporal Projection of Realistic Robot Behavior},
 	Url = {https://ias.cs.tum.edu/_media/spezial/bib/moesenle09icaps.pdf},
 	Year = {2009},
-	Bdsk-Url-1 = {https://ias.cs.tum.edu/_media/spezial/bib/moesenle09icaps.pdf}}
+	Bdsk-Url-1 = {https://ias.cs.tum.edu/_media/spezial/bib/moesenle09icaps.pdf},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QMS4uLy4uL2Rpc3NlcnRhdGlvbi9saXRlcmF0dXJlL21vZXNlbmxlMDlpY2Fwcy5wZGbSFwsYGVdOUy5kYXRhTxEBsgAAAAABsgACAAAJU29mdHRpc2NoAAAAAAAAAAAAAAAAAAAAAAAAzIZEBEgrAAAAnPOaE21vZXNlbmxlMDlpY2Fwcy5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACc85zPiTsTAAAAAAAAAAAAAgADAAAJIAAAAAAAAAAAAAAAAAAAAApsaXRlcmF0dXJlABAACAAAzIYn5AAAABEACAAAz4ke8wAAAAEAEACc85oAL0zxAAUBYAACDeMAAgBJU29mdHRpc2NoOlVzZXJzOgBzZWJhc3RpYW46AGRpc3NlcnRhdGlvbjoAbGl0ZXJhdHVyZToAbW9lc2VubGUwOWljYXBzLnBkZgAADgAoABMAbQBvAGUAcwBlAG4AbABlADAAOQBpAGMAYQBwAHMALgBwAGQAZgAPABQACQBTAG8AZgB0AHQAaQBzAGMAaAASADtVc2Vycy9zZWJhc3RpYW4vZGlzc2VydGF0aW9uL2xpdGVyYXR1cmUvbW9lc2VubGUwOWljYXBzLnBkZgAAEwABLwAAFQACABD//wAAgAbSGxwdHlokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjHR8gVk5TRGF0YVhOU09iamVjdNIbHCIjXE5TRGljdGlvbmFyeaIiIF8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAtADIANwBAAEYATQBVAGAAZwBqAGwAbgBxAHMAdQB3AIQAjgDCAMcAzwKFAocCjAKXAqACrgKyArkCwgLHAtQC1wLpAuwC8QAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALz}}
 
 @inproceedings{Boeing2007,
 	Acmid = {1321312},
@@ -158,77 +192,77 @@
 	Web-Url = {http://doi.acm.org/10.1145/1321261.1321312},
 	Year = {2007},
 	Bdsk-Url-1 = {http://doi.acm.org/10.1145/1321261.1321312},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1145/1321261.1321312}
-}
+	Bdsk-Url-2 = {http://dx.doi.org/10.1145/1321261.1321312}}
 
 @incollection{Weitnauer2010,
-  year={2010},
-  isbn={978-3-642-17318-9},
-  booktitle={Simulation, Modeling, and Programming for Autonomous Robots},
-  volume={6472},
-  series={Lecture Notes in Computer Science},
-  editor={Ando, Noriaki and Balakirsky, Stephen and Hemker, Thomas and
-    Reggiani, Monica and Stryk, Oskar},
-  doi={10.1007/978-3-642-17319-6_16},
-  title={Evaluating a Physics Engine as an Ingredient for Physical
-    Reasoning},
-  web-url={http://dx.doi.org/10.1007/978-3-642-17319-6_16},
-  publisher={Springer Berlin Heidelberg},
-  keywords={physics engines; physical simulation; physical reasoning;
-    robotics},
-  author={Weitnauer, Erik and Haschke, Robert and Ritter, Helge},
-  pages={144-155}
-}
+	Author = {Weitnauer, Erik and Haschke, Robert and Ritter, Helge},
+	Booktitle = {Simulation, Modeling, and Programming for Autonomous Robots},
+	Doi = {10.1007/978-3-642-17319-6_16},
+	Editor = {Ando, Noriaki and Balakirsky, Stephen and Hemker, Thomas and Reggiani, Monica and Stryk, Oskar},
+	Isbn = {978-3-642-17318-9},
+	Keywords = {physics engines; physical simulation; physical reasoning; robotics},
+	Pages = {144-155},
+	Publisher = {Springer Berlin Heidelberg},
+	Series = {Lecture Notes in Computer Science},
+	Title = {Evaluating a Physics Engine as an Ingredient for Physical Reasoning},
+	Volume = {6472},
+	Web-Url = {http://dx.doi.org/10.1007/978-3-642-17319-6_16},
+	Year = {2010},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-642-17319-6_16}}
+
 @inproceedings{Kaufman2005,
-  author = {Kaufman, Danny M. and Edmunds, Timothy and Pai, Dinesh K.},
-  title = {Fast Frictional Dynamics for Rigid Bodies},
-  booktitle = {ACM SIGGRAPH 2005 Papers},
-  series = {SIGGRAPH '05},
-  year = {2005},
-  location = {Los Angeles, California},
-  pages = {946--956},
-  numpages = {11},
-  url = {http://doi.acm.org/10.1145/1186822.1073295},
-  doi = {10.1145/1186822.1073295},
-  acmid = {1073295},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-  keywords = {contact, friction, non-smooth dynamics, rigid bodies},
-} 
+	Acmid = {1073295},
+	Address = {New York, NY, USA},
+	Author = {Kaufman, Danny M. and Edmunds, Timothy and Pai, Dinesh K.},
+	Booktitle = {ACM SIGGRAPH 2005 Papers},
+	Doi = {10.1145/1186822.1073295},
+	Keywords = {contact, friction, non-smooth dynamics, rigid bodies},
+	Location = {Los Angeles, California},
+	Numpages = {11},
+	Pages = {946--956},
+	Publisher = {ACM},
+	Series = {SIGGRAPH '05},
+	Title = {Fast Frictional Dynamics for Rigid Bodies},
+	Url = {http://doi.acm.org/10.1145/1186822.1073295},
+	Year = {2005},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/1186822.1073295},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1145/1186822.1073295}}
+
 @article{Nelder1965,
-  author = {Nelder, J. A. and Mead, R.}, 
-  title = {A Simplex Method for Function Minimization},
-  volume = {7}, 
-  number = {4}, 
-  pages = {308-313}, 
-  year = {1965}, 
-  doi = {10.1093/comjnl/7.4.308}, 
-  abstract ={A method is described for the minimization of a function of n
+	Abstract = {A method is described for the minimization of a function of n
     variables, which depends on the comparison of function values at the (n + 1)
       vertices of a general simplex, followed by the replacement of the vertex
       with the highest value by another point. The simplex adapts itself to the
       local landscape, and contracts on to the final minimum. The method is
       shown to be effective and computationally compact. A procedure is given
       for the estimation of the Hessian matrix in the neighbourhood of the
-        minimum, needed in statistical estimation problems.}, 
-  URL = {http://comjnl.oxfordjournals.org/content/7/4/308.abstract}, 
-    eprint = {http://comjnl.oxfordjournals.org/content/7/4/308.full.pdf+html}, 
-    journal = {The Computer Journal} 
-}
+        minimum, needed in statistical estimation problems.},
+	Author = {Nelder, J. A. and Mead, R.},
+	Doi = {10.1093/comjnl/7.4.308},
+	Eprint = {http://comjnl.oxfordjournals.org/content/7/4/308.full.pdf+html},
+	Journal = {The Computer Journal},
+	Number = {4},
+	Pages = {308-313},
+	Title = {A Simplex Method for Function Minimization},
+	Url = {http://comjnl.oxfordjournals.org/content/7/4/308.abstract},
+	Volume = {7},
+	Year = {1965},
+	Bdsk-Url-1 = {http://comjnl.oxfordjournals.org/content/7/4/308.abstract},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1093/comjnl/7.4.308}}
+
 @article{Storn1995,
-  year={1997},
-  issn={0925-5001},
-  journal={Journal of Global Optimization},
-  volume={11},
-  number={4},
-  doi={10.1023/A:1008202821328},
-  title={Differential Evolution – A Simple and Efficient Heuristic for global
-    Optimization over Continuous Spaces},
-  url={http://dx.doi.org/10.1023/A%3A1008202821328},
-  publisher={Kluwer Academic Publishers},
-  keywords={Stochastic optimization; nonlinear optimization; global
-    optimization; genetic algorithm; evolution strategy},
-  author={Storn, Rainer and Price, Kenneth},
-  pages={341-359},
-  language={English}
-}
+	Author = {Storn, Rainer and Price, Kenneth},
+	Doi = {10.1023/A:1008202821328},
+	Issn = {0925-5001},
+	Journal = {Journal of Global Optimization},
+	Keywords = {Stochastic optimization; nonlinear optimization; global optimization; genetic algorithm; evolution strategy},
+	Language = {English},
+	Number = {4},
+	Pages = {341-359},
+	Publisher = {Kluwer Academic Publishers},
+	Title = {Differential Evolution -- A Simple and Efficient Heuristic for global Optimization over Continuous Spaces},
+	Url = {http://dx.doi.org/10.1023/A%3A1008202821328},
+	Volume = {11},
+	Year = {1997},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1023/A%3A1008202821328},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1023/A:1008202821328}}
